@@ -1,0 +1,48 @@
+:root {
+  --theme-color: white;
+  --primary-color: #242948;
+  --secondary-color: #C9AC8F;
+  --text-color-inverse: white;
+  --text-color: black;
+  --botton-color: #1A1E33;
+  --navbar-shallow-color: #1A1E33;
+  --menu-mobile-background-color: #3a4460;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+section[id] {
+  scroll-margin-top: 70px;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: var(--text-color);
+  padding-top: 5px; */
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+
+/*.vertical-padding {
+  background-image: url("img/C:\Users\Cristina Franco\Desktop\curriculum-web-parte5-contact-final\img\72 Park_Balcony_ArtistConcept.jpg");
+  padding-top: 25px;
+  mix-blend-mode: multiply;
+  /* padding-bottom: 25px;*/
+}
+
+@media (min-width: 950px) {
+  .horizontal-padding {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+  .vertical-padding {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+}
